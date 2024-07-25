@@ -8,12 +8,12 @@
 html,body{
     height: 100%;
     perspective: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 #cursor{
     height: 17px;
     width: 17px;
-    background-color: #95C11E;
+    background-color: #c12c1e;
     border-radius: 50%;
     position: fixed;
     z-index: 109;
@@ -43,6 +43,7 @@ html,body{
 }
 #nav img{
     height: 75px;
+    background-color:wheat;
 }
 #nav h4{
     text-transform: uppercase;
@@ -52,13 +53,15 @@ html,body{
 video{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     position: fixed;
     z-index: -1;
 }
 #main{
- position: relative;
+ position:relative;
  background-color: rgba(0, 0, 0, 0.37);
+ 
+
 }
 #page1{
     height: 100vh;
@@ -77,12 +80,12 @@ video{
     position: relative;
 }
 #page1 h1::before{
-    content: "EAT.DRINK.PLAY.";
+    content: "EAT.DRINK.ENJOY.";
     position: absolute;
     color: black;
     top: -3px;
     left: -5px;
-    -webkit-text-stroke: 2px #95C11E;
+    -webkit-text-stroke: 2px #c12c1e;
     z-index: -1;
 }
 
@@ -133,12 +136,12 @@ video{
     font-family: gilory;
     margin-right: 20px;
     color: #000;
-    -webkit-text-stroke: 2px #95C11E;
+    -webkit-text-stroke: 2px #c12c1e;
      color: transparent;
       transition: all linear 0.5s;
 }
 #scroller h4:hover{
-    color: #95C11E;
+    color: #c12c1e;
 }
 @keyframes scroll{
     from{
@@ -199,18 +202,18 @@ video{
 
 }
 #card1 {
-    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+    background-image: url(https://cdn.dotpe.in/longtail/store-items/6385438/Hm8Gf2IU.jpeg);
   }
   #card2 {
-    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+    background-image: url(https://menu.restaurantguru.com/m9/Burger-King-Gurugram-menu-1.jpg);
   }
-  #card3 {
-    background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+    #card3 {
+    background-image: url(https://cdn.prod.website-files.com/631b4b4e277091ef01450237/64877baffd61e68b0e942e09_Fiery_Nuggets_x_Fanta_Kickin%27_Mango.jpeg);
   }
 .overlay{
     height: 100%;
     width: 100%;
-    background: linear-gradient(to left bottom,rgb(66, 214, 2),#ACE022);;
+    background: linear-gradient(to left bottom,rgb(212, 35, 4),#763939);
     padding: 30px;
     padding-top: 80px;
     opacity: 0;
@@ -218,7 +221,7 @@ video{
 }
 .overlay h4{
     color: #000;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 20px;
@@ -242,7 +245,7 @@ video{
     align-items: center;
     margin-top: 100px;
     justify-content: space-between;
-    background: linear-gradient(to left bottom,rgb(66, 214, 2),#ACE022);
+    background: linear-gradient(to left bottom,rgb(212, 35, 4),#763939);
 }
 #green-div h4{
     width: 45%;
@@ -308,7 +311,7 @@ video{
 .elem h2{
     height: 100%;
     width: 100%;
-    background-color: #95C11E;
+    background-color: #c12c1e;
     display: flex;
     align-items: center;
     color: #000;
@@ -348,7 +351,7 @@ video{
     height: 40vh;
     width: 100%;
     margin-top: 100px;
-    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    background: linear-gradient(to left bottom,rgb(212, 35, 4),#763939 80%);
     position: relative;
     display: flex;
     align-items: center;
@@ -378,7 +381,7 @@ video{
     font-size: 1.6vw;
     white-space: nowrap;
     text-transform: uppercase;
-    color: #000;
+    color: #040404;
     font-weight: 900;
     margin-bottom: 8px;
   }
